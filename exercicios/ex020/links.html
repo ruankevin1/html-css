@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+             font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited {
+            color: darkred;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: rgb(255, 98, 59);
+        }
+        a:active {
+            color: black;
+        }
+        a::after{
+            content:  "[link]";
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+
+        }
+       
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/" target="_blank" rel="external">Youtube</a></li>
+        <li><a href="https://www.google.com/search?q=google+imagens&rlz=1C1CHZN_pt-BRBR1037BR1037&sxsrf=AJOqlzUFjw_ODa9CLv2kEoVbRgogyDFIYA:1676133488944&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiZl9Hp8439AhUxBtQKHRKvAVcQ_AUoAXoECAEQAw&biw=1440&bih=749&dpr=1" target="_blank" rel="external">Google Imagens</a></li>
+        <li ><a href="https://business.facebook.com/adsmanager/manage/accounts?act=238344754804835&business_id=726332444709171&global_scope_id=726332444709171&nav_entry_point=am_local_scope_selector" target="_blank" rel="external">Gerenciador de Anúncios</a></li>
+    </ul>
+</body>
+</html>
