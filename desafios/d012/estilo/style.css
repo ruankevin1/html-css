@@ -5,32 +5,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
 
 :root {
-    --fonte1: font-family: Verdana, Geneva, Tahoma, sans-serif;
-    --fonte2: font-family: 'Passion One', cursive;
-    --fonte3: font-family: 'Sriracha', cursive;
-    
-}
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive; 
+} 
 
 * {
     margin: 0px;
     padding: 0px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
 } 
 
 html, body {
     min-width: 100vh;
     background-color: darkgray;
+    font-family: var(--fonte1);
 }
 
 header {
     background-color: black;
     color: white;
     text-align: center;
+    font-family: var(--fonte2);
 }
 
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps; 
+    font-family: var(--fonte2);
+    font-size: 6vw;
 }
 
 header > p {
@@ -52,6 +55,8 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 1.5vw;
 }
 
 section.normal {
@@ -65,7 +70,8 @@ section.imagem {
 }
 
 section.imagem > p {
-    width: 400px;
+    display: inline-block;
+    padding: 10px;
     background-color: rgba(0, 0, 0, 0.26);
 }
 
